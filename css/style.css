@@ -20,12 +20,35 @@ body{
 	list-style-type:none;
 }
 
-.count-off:nth-child(3) {
+.count-off {
 	font-size:1.2em;
 	color:blue;
 }
 
-.count-off:nth-child(5) {
-	font-size:1.4em;
-	color:red;
+.fizz{
+font-family:Monospace;
+font-weight:bold;
+font-style:italic;
+-webkit-text-stroke:1px red;
+letter-spacing:1px;	
+font-size:2em;
+}
+
+.buzz{
+font-family:Fantasy;
+font-weight:bold;
+font-style:italic;
+-webkit-text-stroke:.5px blue;	
+letter-spacing:1px;	
+font-size:2em;
+}
+
+.fizzbuzz{
+font-family:Cursive;
+font-weight:bolder;
+-webkit-text-stroke:1px green;	
+text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+letter-spacing:1px;	
+font-size:2.5em;
+	
 }
