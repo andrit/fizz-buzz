@@ -8,12 +8,24 @@ h1 {
 	text-align:center;
 }
 
-.count-off:3rd-child {
+main {
+	width:80%;
+	background-color:white;
+}
+body{
+	background-color:blue;
+}
+
+.count-off {
+	list-style-type:none;
+}
+
+.count-off:nth-child(3) {
 	font-size:1.2em;
 	color:blue;
 }
 
-.count-off:5th-child {
+.count-off:nth-child(5) {
 	font-size:1.4em;
 	color:red;
 }
