@@ -1,0 +1,19 @@
+/*Fizz Buzz CSS*/
+h1 {
+	font-size:2em;
+}
+
+.count-off, main, h1{
+	margin:0 auto;
+	text-align:center;
+}
+
+.count-off:3rd-child {
+	font-size:1.2em;
+	color:blue;
+}
+
+.count-off:5th-child {
+	font-size:1.4em;
+	color:red;
+}
